@@ -1,0 +1,14 @@
+.box{
+    border: 5px solid black;
+    width: 150px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.content-box{
+    box-sizing: content-box;
+}
+
+.border-box{
+    box-sizing: border-box;
+}

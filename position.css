@@ -1,0 +1,63 @@
+/* Parent */
+.container {
+    width: 500px;
+    height: 3000px;
+    border: 3px solid black;
+    margin: 20px;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 60px;
+
+    margin: 10px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+
+}
+
+.box1 {
+    background-color: red;
+    position: static;
+}
+
+.box2 {
+    background: blue;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+.box3 {
+    background: green;
+
+    position: absolute;
+
+    top: 20px;
+    right: 20px;
+}
+
+.btnFixed {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.btnSticky {
+    position: sticky;
+    top: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container2 {
+    width: 500px;
+    height: 3000px;
+    border: 3px solid black;
+} 

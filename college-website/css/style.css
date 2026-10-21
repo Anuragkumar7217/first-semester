@@ -1,0 +1,287 @@
+/* =========================================
+   GENERAL STYLES
+   ========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+.site-header {
+    background-color: #12355b;
+    color: white;
+    padding: 20px 0;
+}
+
+.site-header h1 {
+    margin: 0;
+}
+
+.tagline {
+    margin-top: 5px;
+}
+
+
+/* =========================================
+   NAVIGATION
+   ========================================= */
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   SECTIONS
+   ========================================= */
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    color: #12355b;
+}
+
+
+/* =========================================
+   HERO
+   ========================================= */
+
+.hero {
+    background-color: #dceeff;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+
+/* =========================================
+   BUTTON
+   ========================================= */
+
+.button,
+button {
+    display: inline-block;
+    background-color: #12355b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover,
+button:hover {
+    background-color: #0b2440;
+}
+
+
+/* =========================================
+   CARDS
+   ========================================= */
+
+.card-container {
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: #12355b;
+}
+
+
+/* =========================================
+   IMAGE
+   ========================================= */
+
+.college-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* =========================================
+   HIGHLIGHT
+   ========================================= */
+
+.highlight {
+    font-weight: bold;
+    color: #12355b;
+}
+
+
+/* =========================================
+   NOTICE
+   ========================================= */
+
+.notice {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 20px;
+}
+
+
+/* =========================================
+   TABLE
+   ========================================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #12355b;
+    color: white;
+}
+
+
+/* =========================================
+   FORMS
+   ========================================= */
+
+form {
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+fieldset label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+
+/* =========================================
+   FAQ
+   ========================================= */
+
+.faq {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.faq h3 {
+    margin-top: 0;
+    color: #12355b;
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+.site-footer {
+    background-color: #12355b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.site-footer a {
+    color: white;
+}
+
+
+/* =========================================
+   RESPONSIVE IMAGE
+   ========================================= */
+
+img {
+    max-width: 100%;
+}

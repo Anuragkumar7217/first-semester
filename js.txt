@@ -1,0 +1,65 @@
+JavaScript was created by Brendan Eich at Netscape in 1995.
+
+ECMAScript is the standardized specification that defines how the JavaScript language should work.
+
+ES6: let, const
+
+JavaScript:
+    JavaScript is a programming language used to add logic, behaviour and interactivity to applications and websites.
+
+JavaScript can:
+    respond to button clicks
+    validate forms
+    change HTML content
+    change CSS
+    show/hide elements
+    perform calculations
+    communicate with servers
+    fetch data from APIs
+    create interactive applications
+
+client-side JS 
+    User → Browser → JavaScript runs → Alert appears
+
+commonly used for:
+    Button clicks
+    Form validation
+    Showing/hiding elements
+    Changing HTML/CSS
+    Animations
+    Dropdowns/modals
+    Updating the UI
+    Making API requests using fetch()
+
+server-side JS 
+    User → Request → Server → JavaScript runs → Response → User
+
+commonly used for:
+    Creating APIs
+    Working with databases
+    User authentication
+    Processing business logic
+    Handling requests
+    Creating backend applications
+    Reading/writing files
+    Sending data to the frontend
+
+Runtime Environment:
+    A runtime environment is the place/system that provides everything needed to run a program.
+
+Runtime Environment
+    A runtime environment provides the components required to execute a program.
+
+    For JavaScript, the runtime includes a JavaScript engine
+
+JavaScript Engines — V8 and SpiderMonkey
+A JavaScript engine is a program that reads and executes JavaScript code.
+
+Chrome  → V8
+Firefox → SpiderMonkey
+
+variable:
+    A variable is like a labelled container in computer memory where we can keep a value.
+
+Hoisting
+

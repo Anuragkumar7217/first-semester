@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         .container{
+            border: 2px solid red;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: repeat(5, 100px);
+            row-gap: 10px;
+            column-gap: 5px;
+
+            /* grid-template-areas: 'header header header header'
+                                  'sidebar content content content'
+                                  'footer footer footer footer';
+            
+            justify-items: center; */
+            
+
+         }
+
+         .item{
+            border: 2px solid yellow;
+            /* width: 50px; */
+            /* height:50px; */
+
+         }
+
+         .item-1{
+            /* grid-area: header; */
+         }
+         .item-2{
+            /* grid-area: sidebar; */
+
+         }
+
+         .item-3{
+            /* grid-area: content; */
+         }
+
+
+
+         .item-4{
+            /* grid-column: first; */
+            /* grid-row: 1/2; */
+            /* grid-area: footer; */
+         }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item-1">box1</div>
+        <div class="item item-2">box2</div>
+        <div class="item item-3">box3</div>
+        <div class="item item-4">box4</div>
+    </div>
+</body>
+
+</html>

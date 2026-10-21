@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+</head>
+
+<body>
+
+    <h1>Create Your Account</h1>
+
+    <form>
+
+        <label for="full-name">Full Name</label>
+        <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" required>
+
+        <br><br>
+
+        <span>Gender</span>
+        <label>
+            <input type="radio" name="gender" value="male">
+            Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">
+            Female
+        </label>
+        <label>
+            <input type="radio" name="gender" value="other">
+            Other
+        </label>
+            
+        <br><br>
+
+        <span>Programming Lang</span>
+        <label>
+            <input type="checkbox" name="language" value="c">
+            C
+        </label>
+        <label>
+            <input type="checkbox" name="language" value="cpp" checked>
+            cpp
+        </label>
+        <label>
+            <input type="checkbox" name="language" value="java" disabled>
+            java
+        </label>
+        <label>
+            <input type="checkbox" name="language" value="python">
+            Python
+        </label>
+
+        <br><br>
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="" disabled selected>Select a country</option>
+            <option value="usa">USA</option>
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+            <option value="china">China</option>
+            <option value="usa">USA</option>
+        </select>
+
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <br><br>
+
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" name="dob">
+
+        <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <br><br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+        <br><br>
+
+        <label for="address">Address</label>
+        <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+
+        <br><br>
+
+        <button type="submit">Create Account</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+
+</html>

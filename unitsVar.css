@@ -1,0 +1,30 @@
+:root{
+    --bgColor: rgb(205, 134, 28);
+}
+
+
+.parent{
+    font-size: 20px;
+    color:blue;
+    border: 2px solid black;
+    background-color: var(--bgColor);
+    width: 300px;
+    height: 300px;
+}
+
+.child{
+    border: 2px solid rgb(232, 21, 21);
+    color: green;
+    width: 50%;
+    height: 50%;
+    font-size: 1rem;
+}
+
+.imageContainer{
+    width: 300px;
+    background-color: var(--bgColor);
+}
+
+img{
+    width: 50%;
+}

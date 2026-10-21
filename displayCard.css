@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.event-card {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+
+    background-color: white;
+
+    border: 2px solid #333;
+    border-radius: 15px;
+
+}
+
+.event-image {
+    height: 250px;
+
+    background-image: url("./assets/invertis.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 30px;
+    color: white;
+}
+
+.event-content {
+    padding: 25px;
+}
+
+.event-button {
+    display: inline-block;
+
+    background-color: #222;
+    color: white;
+
+    padding: 10px 20px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+}

@@ -1,0 +1,62 @@
+/* CSS Syntax:
+   selector {
+       property: value;
+   }
+*/
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+/* Styling the header */
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Styling the main content */
+main {
+    background-color: rgb(130, 219, 244);
+    padding: 30px;
+    margin: 20px;
+}
+
+/* Styling headings */
+h2 {
+    color: #2563eb;
+}
+
+/* Styling paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Styling list */
+ul {
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* Styling button */
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: 2px solid rgb(0, 64, 255);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Styling footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
