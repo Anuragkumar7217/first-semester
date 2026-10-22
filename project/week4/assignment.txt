@@ -1,0 +1,11 @@
+Week 4: Club Event + Registration Page
+HTML Forms, Tables & Mini Project
+
+QUESTION
+Make a Coding Club page. Show the events in a table. Then make a registration form where students can type their details.
+
+4.1 Add a form with name, email and password. Use label for each box
+4.2 Add date, phone, radio buttons, checkboxes, a dropdown (select), a message box (textarea) and a submit button
+4.3 Make an events table with a heading row, body rows and a footer row
+4.4 Add meta tags and a favicon in the head
+4.5 Real project has 4 pages (Home, About, Register, Contact). Copy this page 4 times and link them with the same menu

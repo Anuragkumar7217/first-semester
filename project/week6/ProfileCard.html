@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Card</title>
+    <style>
+        /* width will include padding and border (easier maths!) */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef2f8;
+        }
+
+        /* sticky = stays at the top while you scroll */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: #12203a;
+            color: white;
+            padding: 14px;
+            text-align: center;
+        }
+
+        .card {
+            width: 280px;
+            margin: 24px auto;
+            background: white;
+            border: 2px solid #2f5bea;
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* 50% radius = perfect circle */
+        .avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: #2f5bea;
+            color: white;
+            font-size: 36px;
+            line-height: 90px;
+            margin: 0 auto 10px;
+        }
+
+        /* fixed height + overflow auto = scroll bar */
+        .bio {
+            height: 80px;
+            overflow: auto;
+            text-align: left;
+            border: 1px solid #ccd;
+            padding: 8px;
+            margin-top: 12px;
+            font-size: 14px;
+        }
+
+        /* fixed = always at the same place on screen */
+        .fab {
+            position: fixed;
+            right: 16px;
+            bottom: 16px;
+            width: 52px;
+            height: 52px;
+            border: 0;
+            border-radius: 50%;
+            background: #ffb703;
+            font-size: 26px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>My Profile Page</header>
+    <div class="card">
+        <div class="avatar">R</div>
+        <h2>Riya Verma</h2>
+        <p>Web Developer in Making</p>
+        <div class="bio">
+            Hi! I am Riya. I started coding this year. I like making small websites,
+            drawing and listening to music. My goal is to build my own app. This long
+            text is here so that the box shows a scroll bar. Try scrolling it!
+        </div>
+    </div>
+    <button class="fab">+</button>
+</body>
+
+</html>

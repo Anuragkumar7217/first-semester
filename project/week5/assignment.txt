@@ -1,0 +1,11 @@
+Week 5: Style the Club Page
+CSS Fundamentals
+
+QUESTION
+Take your Week 4 page and make it look beautiful with CSS. Use colours, fonts and variables. Keep all colours in one place so changing them is easy.
+
+5.1 Write CSS inside style (later: a separate style.css file linked in head)
+5.2 Use 4 selector types: * (all), h1 (element), .card (class), #hero (id)
+5.3 Set fonts, colours, font size and line-height. Try a Google Font too
+5.4 Keep colours and spacing in :root variables. Use them with var()
+5.5 Open DevTools and test. Write 3 lines on why you chose these colours
