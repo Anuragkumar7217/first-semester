@@ -4,9 +4,9 @@
     margin: 2px;
     padding: 2px;
     height: 800px;
-    display: flex;
+    /* display: flex; */
     /* flex-direction: column; */
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: center;  */
     /* align-content: center; */
     /* flex-wrap:wrap; */
@@ -23,12 +23,12 @@
 #box1 {
     background-color: aqua;
     /* align-self: self-start; */
-    order:1;
+    /* order:1; */
 }
 
 #box2 {
     background-color: blue;
-    order: 500;
+    /* order: 500; */
 }
 
 #box3 {
@@ -38,5 +38,5 @@
 
 #box4 {
     background-color: brown;
-    order: -100;
+    /* order: -100; */
 }
