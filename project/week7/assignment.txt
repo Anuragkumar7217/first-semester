@@ -1,0 +1,11 @@
+Week 7: Landing Page Header with Flexbox
+CSS Flexbox
+
+QUESTION
+Make the top part of a website: a menu bar, a big centred banner and a row of cards. Use Flexbox for everything. Cards should wrap to the next line on small screens.
+
+7.1 Make a navbar with display: flex. Logo on the left, links and button on the right
+7.2 Centre the banner text using flex-direction, justify-content and align-items
+7.3 Make a row of cards with flex-wrap and flex: 1 1 200px
+7.4 Put navbar and banner together like a real landing page
+7.5 Test at 3 screen sizes (use the buttons above the output) and submit
