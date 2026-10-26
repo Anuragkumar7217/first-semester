@@ -1,0 +1,12 @@
+Week 8: Dashboard with CSS Grid
+CSS Grid
+
+QUESTION
+Make a dashboard page with a top bar, a side menu, a main area and a footer. Fill the main area with small boxes that arrange themselves automatically.
+
+WHAT TO DO (replaces 8.1 to 8.5)
+8.1 Make a grid with display: grid, columns, the fr unit and gap
+8.2 Make the boxes with repeat(auto-fit, minmax(150px, 1fr)) so they re-arrange by themselves
+8.3 Name the areas: head, side, main, foot using grid-template-areas
+8.4 Inside each box use Flexbox to put the icon and text side by side
+8.5 Check your grid in DevTools (Grid inspector) and submit

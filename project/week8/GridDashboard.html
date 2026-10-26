@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f8;
+        }
+
+        /* The whole page layout, with named areas */
+        .layout {
+            display: grid;
+            grid-template-columns: 170px 1fr;
+            grid-template-areas:
+                "head head"
+                "side main"
+                "foot foot";
+            gap: 10px;
+            min-height: 100vh;
+            padding: 10px;
+        }
+
+        header {
+            grid-area: head;
+            background: #12203a;
+            color: white;
+            padding: 14px;
+            border-radius: 8px;
+        }
+
+        aside {
+            grid-area: side;
+            background: #dbe5fb;
+            padding: 14px;
+            border-radius: 8px;
+        }
+
+        main {
+            grid-area: main;
+        }
+
+        footer {
+            grid-area: foot;
+            background: #12203a;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            border-radius: 8px;
+
+            aside li {
+                margin: 8px 0 8px 18px;
+            }
+
+            /* Boxes: as many columns as can fit */
+            .gallery {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 12px;
+            }
+
+            /* Flexbox inside each grid box */
+            .item {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                background: white;
+                padding: 16px;
+                border-radius: 10px;
+            }
+
+            .icon {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layout">
+        <header>
+            <h2>My Dashboard</h2>
+        </header>
+        <aside>
+            <h3>Menu</h3>
+            <ul>
+                <li>Home</li>
+                <li>Reports</li>
+                <li>Settings</li>
+            </ul>
+        </aside>
+        <main>
+            <div class="gallery">
+                <div class="item"><span class="icon">&#128100;</span>
+                    <div><b>120</b><br>Users</div>
+                </div>
+                <div class="item"><span class="icon">&#128176;</span>
+                    <div><b>Rs 45k</b><br>Sales</div>
+                </div>
+                <div class="item"><span class="icon">&#128230;</span>
+                    <div><b>36</b><br>Orders</div>
+                </div>
+                <div class="item"><span class="icon">&#11088;</span>
+                    <div><b>4.8</b><br>Rating</div>
+                </div>
+                <div class="item"><span class="icon">&#128172;</span>
+                    <div><b>18</b><br>Messages</div>
+                </div>
+                <div class="item"><span class="icon">&#9989;</span>
+                    <div><b>92%</b><br>Done</div>
+                </div>
+            </div>
+        </main>
+        <footer>Made with CSS Grid</footer>
+    </div>
+</body>
+
+</html>

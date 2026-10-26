@@ -1,0 +1,548 @@
+CSS PRACTICE SHEET
+==================
+
+
+------------------------------------------------------------
+1. TEXT & FONT PROPERTIES
+------------------------------------------------------------
+
+color
+    Changes text color.
+    Example:
+    color: red;
+
+font-size
+    Changes text size.
+    Example:
+    font-size: 24px;
+
+font-family
+    Changes the font.
+    Example:
+    font-family: Arial, sans-serif;
+	Arial
+	Times New Roman
+	Georgia
+	Verdana
+	Courier New
+
+font-weight
+    Changes text thickness.
+    Example:
+    font-weight: bold;
+    font-weight: 700;
+
+font-style
+    Makes text normal/italic.
+    Example:
+    font-style: italic;
+
+text-align
+    Aligns text.
+    Example:
+    text-align: center;
+    Values: left, center, right, justify
+
+text-decoration
+    Adds/removes decoration.
+    Example:
+    text-decoration: underline;
+    Values: none, underline, overline, line-through
+
+text-transform
+    Changes letter case.
+    Example:
+    text-transform: uppercase;
+    Values: uppercase, lowercase, capitalize
+
+line-height
+    Controls space between lines.
+    Example:
+    line-height: 1.6;
+
+letter-spacing
+    Controls space between letters.
+    Example:
+    letter-spacing: 2px;
+
+word-spacing
+    Controls space between words.
+    Example:
+    word-spacing: 8px;
+
+------------------------------------------------------------
+2. BACKGROUND PROPERTIES
+------------------------------------------------------------
+
+background-color
+    Sets background color.
+    Example:
+    background-color: lightblue;
+
+background-image
+    Adds a background image.
+    Example:
+    background-image: url("image.jpg");
+
+background-repeat
+    Controls image repetition.
+    Example:
+    background-repeat: no-repeat;
+
+background-size
+    Controls background image size.
+    Example:
+    background-size: cover;
+    Values: cover, contain, auto
+
+background-position
+    Controls image position.
+    Example:
+    background-position: center;
+
+background
+    Shorthand for background properties.
+    Example:
+    background: lightblue;
+
+------------------------------------------------------------
+3. WIDTH & HEIGHT
+------------------------------------------------------------
+
+width
+    Sets element width.
+    Example:
+    width: 300px;
+
+height
+    Sets element height.
+    Example:
+    height: 150px;
+
+max-width
+    Sets maximum width.
+    Example:
+    max-width: 800px;
+
+min-width
+    Sets minimum width.
+    Example:
+    min-width: 200px;
+
+max-height
+    Sets maximum height.
+    Example:
+    max-height: 500px;
+
+min-height
+    Sets minimum height.
+    Example:
+    min-height: 100px;
+
+------------------------------------------------------------
+4. BORDER PROPERTIES
+------------------------------------------------------------
+
+border
+    Adds a border.
+    Example:
+    border: 2px solid black;
+
+border-width
+    Controls border thickness.
+    Example:
+    border-width: 3px;
+
+border-style
+    Controls border style.
+    Example:
+    border-style: solid;
+    Values: solid, dashed, dotted, double, none
+
+border-color
+    Changes border color.
+    Example:
+    border-color: blue;
+
+border-radius
+    Rounds corners.
+    Example:
+    border-radius: 10px;
+
+border-top
+    Border on top.
+    Example:
+    border-top: 2px solid black;
+
+border-bottom
+    Border at bottom.
+    Example:
+    border-bottom: 2px solid black;
+
+border-left
+    Border on left.
+    Example:
+    border-left: 2px solid black;
+
+border-right
+    Border on right.
+    Example:
+    border-right: 2px solid black;
+
+------------------------------------------------------------
+5. MARGIN & PADDING
+------------------------------------------------------------
+
+margin
+    Creates space outside an element.
+    Example:
+    margin: 20px;
+
+margin-top
+    Example:
+    margin-top: 20px;
+
+margin-right
+    Example:
+    margin-right: 20px;
+
+margin-bottom
+    Example:
+    margin-bottom: 20px;
+
+margin-left
+    Example:
+    margin-left: 20px;
+
+padding
+    Creates space inside an element.
+    Example:
+    padding: 20px;
+
+padding-top
+    Example:
+    padding-top: 20px;
+
+padding-right
+    Example:
+    padding-right: 20px;
+
+padding-bottom
+    Example:
+    padding-bottom: 20px;
+
+padding-left
+    Example:
+    padding-left: 20px;
+
+IMPORTANT:
+margin  = outside space
+padding = inside space
+
+------------------------------------------------------------
+6. DISPLAY
+------------------------------------------------------------
+
+display
+    Controls how an element is displayed.
+    Example:
+    display: block;
+
+Common values:
+
+display: block;
+display: inline;
+display: inline-block;
+display: none;
+display: flex;
+display: grid;
+
+IMPORTANT:
+display: none;
+    Hides the element.
+
+------------------------------------------------------------
+7. FLEXBOX BASICS
+------------------------------------------------------------
+
+display: flex;
+    Turns an element into a flex container.
+
+flex-direction
+    Controls main direction.
+    Example:
+    flex-direction: row;
+    Values: row, column, row-reverse, column-reverse
+
+justify-content
+    Controls alignment along the main axis.
+    Example:
+    justify-content: center;
+
+Common values:
+    flex-start
+    center
+    flex-end
+    space-between
+    space-around
+    space-evenly
+
+align-items
+    Controls alignment along the cross axis.
+    Example:
+    align-items: center;
+
+Common values:
+    flex-start
+    center
+    flex-end
+    stretch
+
+gap
+    Creates space between flex/grid items.
+    Example:
+    gap: 20px;
+
+flex-wrap
+    Allows items to move to the next line.
+    Example:
+    flex-wrap: wrap;
+
+------------------------------------------------------------
+8. POSITIONING
+------------------------------------------------------------
+
+position
+    Controls positioning method.
+    Example:
+    position: relative;
+
+Common values:
+    static
+    relative
+    absolute
+    fixed
+    sticky
+
+top
+    Example:
+    top: 20px;
+
+right
+    Example:
+    right: 20px;
+
+bottom
+    Example:
+    bottom: 20px;
+
+left
+    Example:
+    left: 20px;
+
+z-index
+    Controls which element appears in front.
+    Example:
+    z-index: 10;
+
+NOTE:
+Learn position carefully before using top/right/bottom/left.
+
+------------------------------------------------------------
+9. OVERFLOW
+------------------------------------------------------------
+
+overflow
+    Controls content that goes outside an element.
+    Example:
+    overflow: hidden;
+
+Common values:
+    visible
+    hidden
+    scroll
+    auto
+
+overflow-x
+    Controls horizontal overflow.
+
+overflow-y
+    Controls vertical overflow.
+
+------------------------------------------------------------
+10. OPACITY
+------------------------------------------------------------
+
+opacity
+    Controls transparency.
+    Range: 0 to 1
+
+Example:
+    opacity: 0.5;
+
+opacity: 1;
+    Fully visible
+
+opacity: 0;
+    Completely transparent
+
+------------------------------------------------------------
+11. BOX SHADOW
+------------------------------------------------------------
+
+box-shadow
+    Adds shadow around an element.
+
+Example:
+    box-shadow: 0 4px 10px gray;
+
+Try changing:
+    horizontal offset
+    vertical offset
+    blur
+    color
+
+------------------------------------------------------------
+12. TEXT SHADOW
+------------------------------------------------------------
+
+text-shadow
+    Adds shadow to text.
+
+Example:
+    text-shadow: 2px 2px 4px gray;
+
+------------------------------------------------------------
+13. CURSOR
+------------------------------------------------------------
+
+cursor
+    Changes the mouse pointer.
+
+Example:
+    cursor: pointer;
+
+Try:
+    cursor: default;
+    cursor: pointer;
+    cursor: not-allowed;
+    cursor: wait;
+
+------------------------------------------------------------
+14. LIST PROPERTIES
+------------------------------------------------------------
+
+list-style-type
+    Changes bullet/number style.
+
+Example:
+    list-style-type: square;
+
+Common values:
+    disc
+    circle
+    square
+    decimal
+    none
+
+list-style-position
+    Controls bullet position.
+    Example:
+    list-style-position: inside;
+
+------------------------------------------------------------
+15. IMAGE PROPERTIES
+------------------------------------------------------------
+
+object-fit
+    Controls how an image fits inside its box.
+
+Example:
+    object-fit: cover;
+
+Common values:
+    cover
+    contain
+    fill
+    none
+
+object-position
+    Controls image position.
+    Example:
+    object-position: center;
+
+------------------------------------------------------------
+16. BUTTON PRACTICE PROPERTIES
+------------------------------------------------------------
+
+Try these together on a button:
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+------------------------------------------------------------
+17. COMMON CSS UNITS
+------------------------------------------------------------
+
+px
+    Fixed pixel unit.
+    Example:
+    width: 200px;
+
+%
+    Percentage of the parent/container.
+    Example:
+    width: 50%;
+
+em
+    Relative to font size.
+
+rem
+    Relative to root HTML font size.
+
+vh
+    Viewport height.
+    Example:
+    height: 50vh;
+
+vw
+    Viewport width.
+    Example:
+    width: 50vw;
+
+NOTE:
+For beginners, start mainly with px, %, rem, vh and vw.
+
+------------------------------------------------------------
+18. COMMON CSS COLORS
+------------------------------------------------------------
+
+Color names:
+    red
+    blue
+    green
+    yellow
+    orange
+    purple
+    black
+    white
+    gray
+
+HEX:
+    #ff0000
+    #0000ff
+    #ffffff
+    #000000
+
+RGB:
+    rgb(255, 0, 0)
+
+RGBA:
+    rgba(0, 0, 0, 0.5)

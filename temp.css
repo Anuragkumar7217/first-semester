@@ -1,0 +1,50 @@
+.div1{
+    border: black solid ;
+    color: aliceblue;
+    background-color: rgb(54, 54, 74);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div2{
+    border: blue solid;
+    background-color: rgb(63, 63, 182);
+    color: aliceblue;
+    text-align:center ; 
+}
+button{
+    background-color: rgb(229, 202, 130);
+    /* display: flex;
+    flex-direction: ; */
+}
+.box1{
+    border: black solid 3px;
+    width:70px ;
+    margin:7px;
+    background-color: rgb(33, 239, 239);
+}
+.box2{
+     border: black solid 3px;
+    width:70px ;
+    margin:7px;
+    background-color: rgb(239, 98, 33);
+}
+.box3{
+     border: black solid 3px;
+    width:70px ;
+    margin:7px;
+    background-color: rgb(112, 223, 21);
+}
+.box4{
+     border: black solid 3px;
+    width:70px ;
+    margin:7px;
+    background-color: rgb(20, 20, 219);
+}
+.container{
+    border: rgb(232, 228, 228) solid;
+    background-color: azure;
+    justify-content: space-around;
+    display: flex;
+    flex-direction:row;
+}
