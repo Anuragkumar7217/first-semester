@@ -1,20 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Grid</title>
-   <link rel="stylesheet" href="./grid.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="./grid.css">
+    <!-- <style>
+        .container{
+            height: 300px;
+            padding: 20px;
+            display: grid;
+            grid-template-areas: 
+                "xyz xyz xyz xyz xyz"
+                "sidebar content1 content1 content1 content1"
+                "sidebar content2 content2 content3 content3"
+                "footer footer footer footer footer";
+            gap: 10px;
+        }
+
+        .item{
+            background-color: aqua;
+        }
+
+        .header{
+            grid-area: xyz;
+        }
+
+        .sidebar{
+            grid-area: sidebar;
+        }
+
+        .content1{
+            grid-area: content1;
+        }
+
+        .content2{
+            grid-area: content2;
+        }
+
+        .content3{
+            grid-area: content3;
+        }
+
+        .footer{
+            grid-area: footer;
+        }
+    </style> -->
 </head>
-
 <body>
-   <div class="container">
-      <div class="item item-1">box1</div>
-      <div class="item item-2">box2</div>
-      <div class="item item-3">box3</div>
-      <div class="item item-4">box4</div>
-   </div>
+    <div class="container">
+        <div class="item header">Header</div>
+        <div class="item sidebar">Sidebar</div>
+        <div class="item content1">Content1</div>
+        <div class="item">Content2</div>
+        <div class="item">Content3</div>
+        <div class="item footer">Footer</div>
+    </div>
 </body>
-
 </html>
