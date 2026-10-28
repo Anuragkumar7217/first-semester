@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TravelEase</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            padding: 14px;
+            background: #12203a;
+            color: white;
+        }
+
+        nav span {
+            color: white;
+            margin: 0 8px;
+            text-decoration: none;
+        }
+
+        .hero {
+            padding: 40px 16px;
+            text-align: center;
+            background: #2f5bea;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 1.6rem;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 16px;
+            border-radius: 12px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            padding: 20px;
+        }
+
+        .box {
+            background: #eef2ff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        footer {
+            background: #12203a;
+            color: white;
+            text-align: center;
+            padding: 16px;
+        }
+
+        @media (min-width: 768px) {
+            nav {
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 14px 32px;
+            }
+
+            .hero h1 {
+                font-size: 2.4rem;
+            }
+
+            .features {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .features {
+                grid-template-columns: repeat(3, 1fr);
+                padding: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h2>TravelEase</h2>
+        <div><span>Home</span><span>Trips</span><span>Contact</span></div>
+    </nav>
+    <section class="hero">
+        <h1>Plan your next trip in minutes</h1>
+        <p>Simple, cheap and fun travel plans.</p>
+        <img src="mountain.jpg" alt="Mountain trip banner" width="600">
+    </section>
+    <section class="features">
+        <div class="box">
+            <h3>Easy Booking</h3>
+            <p>Book in 3 clicks.</p>
+        </div>
+        <div class="box">
+            <h3>Best Prices</h3>
+            <p>We compare for you.</p>
+        </div>
+        <div class="box">
+            <h3>24x7 Help</h3>
+            <p>We are always online.</p>
+        </div>
+    </section>
+    <footer>Made by a first year student</footer>
+</body>
+
+</html>

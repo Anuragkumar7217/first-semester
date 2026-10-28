@@ -1,0 +1,12 @@
+Week 9: Responsive Landing Page
+Responsive Design & CSS Mini Project
+
+QUESTION
+Make a landing page that looks good on a phone, a tablet and a laptop. Start with the phone layout first, then add media queries for bigger screens. Use the Desktop / Tablet / Mobile buttons above the output to test it.
+
+WHAT TO DO (replaces 9.1 to 9.5)
+9.1 Write mobile layout first. Then add media queries at 768px and 1024px
+9.2 Make images fit with max-width: 100%. Use rem for font sizes
+9.3 Use Grid for the page sections and Flexbox for the navbar
+9.4 Push your HTML and desktop CSS to GitHub
+9.5 Finish all screen sizes, test them, push the final project

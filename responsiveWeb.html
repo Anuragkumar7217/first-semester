@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 300px;
+            background-color: aqua;
+            border: 3px solid black;
+            display:flex;
+            flex-direction: column;
+            margin:10px;
+        }
+
+        img{
+            width: 300px;
+        }
+
+        #leftPanel{
+            width:45%;
+        }
+
+        @media (min-width: 400px){
+            .container{
+                flex-direction: row;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="leftPanel">
+            <p>Text one</p>
+            <p>Text two</p>
+        </div>
+        <div id="rightPanel">
+            <img src="./assets/invertis.jpg" />
+        </div>
+    </div>
+</body>
+
+</html>
