@@ -6,41 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container {
-            width: 300px;
+        .container{
             background-color: aqua;
-            border: 3px solid black;
-            display:flex;
-            flex-direction: column;
-            margin:10px;
+            padding: 5px;
+            margin: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
         }
 
         img{
-            width: 300px;
+            width:40%;
         }
 
-        #leftPanel{
-            width:45%;
-        }
-
-        @media (min-width: 400px){
+        @media (max-width:400px) {
             .container{
-                flex-direction: row;
+                flex-direction: column;
             }
-        }
 
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div id="leftPanel">
-            <p>Text one</p>
-            <p>Text two</p>
+        <div class="lefttPanel">
+            <p>text 1</p>
+            <p>text 2</p>
         </div>
-        <div id="rightPanel">
-            <img src="./assets/invertis.jpg" />
-        </div>
+    <div class="rightPanel">
+        <img src="./assets/invertis.jpg" />
+    </div>
+
     </div>
 </body>
 

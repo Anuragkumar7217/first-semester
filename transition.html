@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .container{
+            height: 100px;
+            width: 100px;
+            background-color: skyblue;
+            border: 2px solid black;
+            transition-property: all;
+            transition-duration: 5s;
+            transition-timing-function: alternate;
+        }
+
+        .container:hover{
+            background-color: blue;
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> </div>
+</body>
+</html>
