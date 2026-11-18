@@ -1,13 +1,16 @@
-for(let i = 1; i <= 5; i++) {
-    let line="";
-    for(let j=1; j<=5; j++){
-        line += "* ";
-    }
-    console.log(line);
+let employee = {
+    name: "Amit",
+    salary: 30000,
+    department: "IT"
+};
+let newEmployee = {
+    ...employee,
+    salary: 30
+};
+
+let combine={
+    ...employee,
+    ...newEmployee
 }
 
-// * 
-// * * 
-// * * * 
-// * * * * 
-// * * * * *
+console.log(combine);
